@@ -1,1 +1,21 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/* Layout */
+
+/* Layout för header */
+
+#topbar{background-color:#51473D; width:960px; height:300px; float:left;}
+
+/* Layout menu */
+#menu li{display:inline-block;margin-right:-2px; background-color:#797066; color:#EAE7D2;}
+#menu li a:first-letter{text-transform:uppercase;}
+#menu li a:link{display:inline-block; text-decoration:none; color:#EAE7D2; padding:10px 15px;}
+#menu li a:visited{color:inherit;}
+#menu li a:hover{background-color:#9C9084;}
+#menu li.active{text-decoration:none;background-color:#EAE7D2; color:#888076;}
+/* Layout container */
+#container{max-width:960px; margin:0 auto;background-color:#EAE7D2;}
+/*Maincontent layout */
+#maincontent{}
+#maincontent h1{}
+#subcontent{}
+#bottomcontent{}
