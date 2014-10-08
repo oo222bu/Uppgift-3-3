@@ -19,6 +19,7 @@ Menu text active:#888076
 #menu li a:visited{color:inherit;}
 #menu li a:hover{background-color:#9C9084;}
 #menu .active{text-decoration:none;background-color:#EAE7D2; color:#888076;}
+a[href="#maincontent"]{ visibility:hidden;}
 /*Container layout*/
 #container{max-width:600px; margin:0 auto;}
 /*Content layout*/
@@ -46,3 +47,5 @@ Menu text active:#888076
 #subcontent ul{font-family:"Verdanaa",sans-serif; color:#51473D; font-size:95%; line-height:20px;}
 #bottomcontent{font-family:"Verdanaa",sans-serif; color:#797066; padding-left:10px; padding-bottom:20px; font-size:70%; font-weight:lighter;}
 
+
+ 
