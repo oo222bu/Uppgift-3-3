@@ -1,5 +1,13 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
-/* Layout */
+
+/*Color
+Background topbar:#51473D
+Background menu:#51473D
+Background menu li:#797066
+Background content:#EAE7D2
+
+Menu text active:#888076
+*/
 
 /*Topbar layout*/
 
@@ -12,15 +20,29 @@
 #menu li a:link{display:inline-block; text-decoration:none; color:#EAE7D2; padding:7px 20px;}
 #menu li a:visited{color:inherit;}
 #menu li a:hover{background-color:#9C9084;}
-#menu li.active{text-decoration:none;background-color:#EAE7D2; color:#888076;}
+#menu .active{text-decoration:none;background-color:#EAE7D2; color:#888076;}
 /*Container layout*/
 #container{max-width:600px; margin:0 auto;}
+/*Content layout*/
 #content{background-color:#EAE7D2; float:left;}
 /*Maincontent layout */
-#maincontent{float:left; width:370px; font-family:"Verdanaa",sans-serif;}
-#maincontent img{float:left;}
-#maincontent h1{}
+#maincontent{float:left; width:370px;}
+#maincontent img{float:left; padding-left:10px; padding-right:5px;}
 /*Subcontent layout */
-#subcontent{float:right; width:230px;}
+#subcontent{float:right; width:230px; "Verdanaa",sans-serif;}
+#subcontent li{display:block; margin:0;}
+#subcontent li a:link{color:#797066;}
+#subcontent li a:visited{color:#797066;}
+#subcontent li a:hover{}
+/*Bottomcontent layout*/
 #bottomcontent{float:left; width:370px;}
-/*body{background-color:#EAE7D2;}*/
+
+/* Typografi */
+#maincontent h1{font-family:"Times New Roman",serif; color:#797066; padding-left:10px;}
+#subcontent h1, h2{font-family:"Times New Roman",serif; color:#797066; padding-left:10px;}
+#topbar{font-family:"Verdanaa",sans-serif;}
+#menu{font-family:"Verdanaa",sans-serif;}
+#maincontent p{font-family:"Verdanaa",sans-serif; color:#797066; padding-left:10px;}
+#subcontent p{font-family:"Verdanaa",sans-serif; color:#797066; padding-left:10px; font-size:small; font-weight:lighter;}
+#subcontent ul{font-family:"Verdanaa",sans-serif; color:#797066;}
+#bottomcontent{font-family:"Verdanaa",sans-serif; color:#797066;}
