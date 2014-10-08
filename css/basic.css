@@ -1,11 +1,11 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 /* Layout */
 
-/* Layout för header */
+/*Topbar layout*/
 
 #topbar{background-color:#51473D; width:600px; height:220px; background-image:url(pics/coffey.jpg); background-repeat:no-repeat; background-position:0px 20px;}
 
-/* Layout menu */
+/*Menu layout*/
 #menu{width:600px; height:37px;background-color:#51473D;}
 #menu li{display:inline-block;margin-right:-3px; background-color:#797066; color:#EAE7D2; position:relative; top:-29px; left:-30px;}
 #menu li a:first-letter{text-transform:uppercase;}
@@ -13,11 +13,14 @@
 #menu li a:visited{color:inherit;}
 #menu li a:hover{background-color:#9C9084;}
 #menu li.active{text-decoration:none;background-color:#EAE7D2; color:#888076;}
-/* Layout container */
-#container{max-width:600px; margin:0 auto;background-color:#EAE7D2;}
+/*Container layout*/
+#container{max-width:600px; margin:0 auto;}
+#content{background-color:#EAE7D2; float:left;}
 /*Maincontent layout */
-#maincontent{float:left; width:370px; background-color:#EAE7D2;font-family:"Verdana",sans-serif;}
+#maincontent{float:left; width:370px; font-family:"Verdanaa",sans-serif;}
 #maincontent img{float:left;}
 #maincontent h1{}
-#subcontent{float:right; width:230px; background-color:#EAE7D2;}
-#bottomcontent{float:left; background-color:#EAE7D2;}
+/*Subcontent layout */
+#subcontent{float:right; width:230px;}
+#bottomcontent{float:left; width:370px;}
+/*body{background-color:#EAE7D2;}*/
