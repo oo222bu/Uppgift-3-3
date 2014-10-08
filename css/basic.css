@@ -16,7 +16,8 @@
 /* Layout container */
 #container{max-width:600px; margin:0 auto;background-color:#EAE7D2;}
 /*Maincontent layout */
-#maincontent{}
+#maincontent{float:left; width:370px; background-color:#EAE7D2;font-family:"Verdana",sans-serif;}
+#maincontent img{float:left;}
 #maincontent h1{}
-#subcontent{}
-#bottomcontent{}
+#subcontent{float:right; width:230px; background-color:#EAE7D2;}
+#bottomcontent{float:left; background-color:#EAE7D2;}
